@@ -80,7 +80,7 @@ A beautiful and interactive algorithm visualization project featuring N-Queens a
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/algorithm-visualizer.git
+   git clone https://github.com/iamalok123/algorithm-visualizer-project.git
    ```
 2. Open `index.html` in your browser
 3. No additional dependencies required!
