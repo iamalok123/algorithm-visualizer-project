@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Solver</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/sudoku.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Sudoku Solver</h1>
+            <p>Watch the backtracking algorithm solve Sudoku puzzles</p>
+            <a href="../index.html" class="back-btn">← Back to Home</a>
+        </header>
+
+        <main class="visualizer-container">
+            <div class="controls">
+                <div class="input-group">
+                    <label for="difficulty">Difficulty:</label>
+                    <select id="difficulty">
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="speed">Animation Speed:</label>
+                    <input type="range" id="speed" min="1" max="10" value="5">
+                </div>
+                <button id="generate-btn" class="action-btn generate-btn">Generate Puzzle</button>
+                <button id="instant-solve-btn" class="action-btn instant-solve-btn">Instant Solve</button>
+            </div>
+
+            <div class="board-container">
+                <div id="sudoku-board" class="sudoku-board"></div>
+            </div>
+
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-label">Steps:</span>
+                    <span id="steps" class="stat-value">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Backtracks:</span>
+                    <span id="backtracks" class="stat-value">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Time:</span>
+                    <span id="time" class="stat-value">0:00</span>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="../js/sudoku.js"></script>
+</body>
+</html> 

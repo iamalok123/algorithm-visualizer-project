@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algorithm Visualizer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Algorithm Visualizer</h1>
+        <p>Explore backtracking algorithms through interactive visualizations</p>
+      </header>
+
+      <main class="cards-container">
+        <div class="card" data-page="nqueens">
+          <div class="card-content">
+            <h2>N-Queens Solver</h2>
+            <p>Visualize the backtracking solution for placing N queens on an NxN chessboard</p>
+            <div class="card-image nqueens-img"></div>
+            <button class="explore-btn">Explore N-Queens</button>
+          </div>
+        </div>
+
+        <div class="card" data-page="sudoku">
+          <div class="card-content">
+            <h2>Sudoku Solver</h2>
+            <p>Watch backtracking algorithm solve Sudoku puzzles step by step</p>
+            <div class="card-image sudoku-img"></div>
+            <button class="explore-btn">Explore Sudoku</button>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-section about">
+            <h3>About the Project</h3>
+            <p>An interactive visualization tool for understanding backtracking algorithms through N-Queens and Sudoku puzzles.</p>
+          </div>
+          
+          <div class="footer-section contact">
+            <h3>Connect With Me</h3>
+            <div class="social-links">
+              <a href="https://github.com/iamalok123" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/alok-hotta-a35521285/" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://x.com/_alok_h" target="_blank" title="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/_._alok_.123/" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="mailto:alokhotta10@gmail.com?subject=Inquiry%20From%20Website" title="Email">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#" id="portfolio-link">Portfolio</a></li>
+              <li><a href="#" id="blog-link">Blog</a></li>
+              <li><a href="https://github.com/yourusername/project-repo" target="_blank">Source Code</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>Created with <i class="fas fa-heart"></i> by Alok Hotta</p>
+          <p class="copyright">© 2024 Algorithm Visualizer. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/animations.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
