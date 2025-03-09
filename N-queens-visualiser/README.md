@@ -80,7 +80,7 @@ A beautiful and interactive algorithm visualization project featuring N-Queens a
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/algorithm-visualizer.git
+   git clone https://github.com/iamalok123/algorithm-visualizer-project.git
    ```
 2. Open `index.html` in your browser
 3. No additional dependencies required!
@@ -109,8 +109,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Special thanks to contributors and users
 
 ## Contact
-- GitHub: [Your GitHub Profile](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [Your GitHub Profile](https://github.com/iamalok123)
+- Email: alokhotta10@gmail.com
 
 ---
-Made with ❤️ by [Your Name]
+Made with ❤️ by Alok
