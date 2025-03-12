@@ -2,7 +2,7 @@
 
 A beautiful and interactive algorithm visualization project featuring N-Queens and Sudoku solvers. Experience the power of algorithms through stunning visual animations and a modern user interface.
 
-🔗 **Live Demo**: [Algorithm Visualizer](https://algorithm-visualizer-alok-69.netlify.app/)
+🔗 **Live Demo**: [Algorithm Visualizer](https://algorithm-visualizer-alok.netlify.app/)
 
 ## Features
 
